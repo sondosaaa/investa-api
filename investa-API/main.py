@@ -82,7 +82,7 @@ app = FastAPI()
 
 @app.get("/")
 def root():
-    return {"message": "🚀 Roomify Model is running!"}
+    return {"message": "🚀 Investa Model is running!"}
 
 @app.post("/predict")
 def predict(input_data: InputData):
